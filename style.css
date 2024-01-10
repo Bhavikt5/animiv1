@@ -124,6 +124,9 @@
   .hero .hero_right img {
     object-fit: contain;
   }
+  .section1 {
+    padding-top: 100px;
+  }
   .section1 .cuvre {
     display: none;
   }
