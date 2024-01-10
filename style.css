@@ -104,3 +104,27 @@
   transform: scaleX(-1);
   z-index: 999;
 }
+
+@media (max-width: 520px) {
+  .hero {
+    height: auto;
+    padding: 1rem;
+    padding-bottom: 10vh;
+    flex-direction: column-reverse;
+  }
+  .hero_left {
+    width: 100%;
+  }
+  .hero .hero_right img {
+    object-fit: contain;
+  }
+  .section1 .cuvre {
+    display: none;
+  }
+  .section1 .imgweb {
+    width: 100%;
+  }
+  .mainCard {
+    flex-direction: column;
+  }
+}
