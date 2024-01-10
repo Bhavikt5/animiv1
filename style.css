@@ -115,6 +115,12 @@
   .hero_left {
     width: 100%;
   }
+  .hero_left h1 {
+    font-size: 9vw;
+  }
+  .hero_left button {
+    font-size: 5vw;
+  }
   .hero .hero_right img {
     object-fit: contain;
   }
@@ -126,5 +132,10 @@
   }
   .mainCard {
     flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  .mainCard .card p {
+    font-size: 3vw;
   }
 }
