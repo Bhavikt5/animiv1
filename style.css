@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+.section2 {
+  height: 100vh;
+  background-color: #101442;
+}
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+  background-color: #101442;
+  color: #fff;
+}
+
+.hero .hero_left,
+.hero .hero_right {
+  flex: 1;
+}
+
+.hero_left h1 {
+  font-size: 5vw;
+  font-weight: 500;
+}
+
+.hero_left button {
+  background-color: #ff6b00;
+  border: none;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 2vw;
+  border-radius: 40px;
+}
+
+.hero .hero_right img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+  /* background-color: #fff; */
+  /* background-color: #101442;
+  color: #fff; */
+}
+
+.section1 .content {
+  text-align: center;
+}
+
+.section1 .content .innerContent {
+  margin-bottom: 2rem;
+}
+
+.section1 .content .innerContent h3 {
+  color: #ff6b00;
+  font-weight: 400;
+}
+
+.section1 .content .innerContent h1 {
+  margin: 20px 0;
+}
+
+.section1 .content .innerContent p {
+  font-weight: 300;
+}
+.section1 .content .card {
+  display: flex;
+  text-align: left;
+}
+
+.mainCard {
+  display: flex;
+}
+
+.mainCard .card img {
+  height: 50px;
+  margin-right: 20px;
+}
+
+.mainCard .card p {
+  font-size: 0.8vw;
+  font-weight: 400;
+}
+
+.imgweb {
+  position: absolute;
+  top: 0;
+  left: -300px;
+  background-color: transparent;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  z-index: 999;
+}
